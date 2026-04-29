@@ -1,0 +1,15 @@
+footer {
+  background: #020617; /* Very dark blue/black */
+  color: #94a3b8;
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 50px;
+}
+
+.footer-links a {
+  color: #94a3b8;
+  text-decoration: none;
+  margin-left: 15px;
+}

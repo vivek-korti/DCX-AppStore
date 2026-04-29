@@ -1,0 +1,19 @@
+<div class="product-grid">
+  <div class="product-card" *ngFor="let p of productList">
+    <div class="card-image">
+      <img [src]="p.image" [alt]="p.name">
+    </div>
+    <div class="card-content">
+      <div class="title-price">
+        <h3>{{p.name}}</h3>
+        <span class="price">₹{{p.price}}</span>
+      </div>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. High performance device.</p>
+      <div class="rating-row">
+        <span class="stars">★★★★★</span>
+        <span class="reviews">{{p.reviews}} Reviews</span>
+      </div>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+  </div>
+</div>

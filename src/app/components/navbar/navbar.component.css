@@ -1,0 +1,17 @@
+.top-header {
+  display: flex; justify-content: space-between; padding: 20px 10%; background: #fff;
+}
+.logo-text h1 { color: #437ba3; margin: 0; font-size: 28px; }
+.login-bar { background: #437ba3; padding: 10px 20px; border-radius: 4px; display: flex; align-items: center; }
+.input-group label { color: white; margin: 0 5px; font-size: 12px; }
+.input-group input { padding: 3px; border: none; border-radius: 2px; }
+.login-btn { background: #eee; border: 1px solid #ccc; cursor: pointer; margin-left: 10px; }
+
+.main-nav { 
+  display: flex; background: linear-gradient(to bottom, #f9f9f9, #e9e9e9); 
+  border: 1px solid #ddd; margin: 0 10%; padding: 0 20px; align-items: center;
+}
+.main-nav ul { display: flex; list-style: none; margin: 0; padding: 0; flex-grow: 1; }
+.main-nav ul li a { padding: 15px 20px; display: block; text-decoration: none; color: #666; font-weight: bold; border-right: 1px solid #ddd; }
+.main-nav ul li a.active { color: #437ba3; background: #fff; }
+.search-box { display: flex; gap: 5px; }

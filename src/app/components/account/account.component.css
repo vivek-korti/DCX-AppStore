@@ -1,0 +1,79 @@
+/* Center the form and add the card look */
+.account-card {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+/* Rounded, light-gray inputs as per your reference */
+input {
+  width: 100%;
+  padding: 14px 18px;
+  background-color: #f3f6ff; /* Very light blue/gray tint */
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6366f1;
+  background-color: white;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+}
+
+/* The 3-column grid for City, State, and PIN */
+.grid-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+/* The Professional Purple Button */
+.save-changes-btn {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.save-changes-btn:hover {
+  background-color: #4338ca;
+}
+
+/* Clearfix for the floated button */
+form::after {
+  content: "";
+  display: table;
+  clear: both;
+}
